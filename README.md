@@ -14,3 +14,10 @@ var template = fs.readFileSync('./template.html').toString();
 var htmlText = template.replace('%markdown%',markdownContent);
 fs.writeFileSync(files[i]+'.html',htmlText);
 ```
+* marked.js
+```
+var content = document.getElementById('content');
+var contentText = content.innerHTML;
+var markdownContent = marked(contentText); //此处的marked为marked自带的函数
+content.innerHTML = markdownContent;
+```

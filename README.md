@@ -1,5 +1,6 @@
 # 使用nodejs和markdown语法来搭建个人博客
-## 使用markdown语法来书写博客
+## 目的
+使用markdown语法来书写博客
 ## 工具
 1. node.js  主要工具
 2. markdown  markdown的语法，能让我们方便的再github上写自己的东西
